@@ -1,0 +1,5 @@
+package l02.client;
+
+public class SimpleHttpClient {
+
+}
