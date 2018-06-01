@@ -1,6 +1,8 @@
-package exam;
+package examples;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -8,16 +10,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class TenServlet
+ * Servlet implementation class ParameterServlet
  */
-@WebServlet("/Ten")
-public class TenServlet extends HttpServlet {
+@WebServlet("/param")
+public class ParameterServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public TenServlet() {
+    public ParameterServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
@@ -27,15 +29,23 @@ public class TenServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.setContentType("text/html");
-	}
+		response.setContentType("text/html; charset=utf-8");
+		PrintWriter out = response.getWriter();
+		
+		out.println("<html>");
+		out.println("<head><title>form</title></head>");
+		out.println("<body>");
 
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		String name = request.getParameter("name");
+		String age = request.getParameter("age");
+		
+		out.println("name : " + name + "<br>");
+		out.println("age : " +age + "<br>");
+		
+		out.println("</body>");
+		out.println("</html>");
+		
+		
 	}
 
 }
