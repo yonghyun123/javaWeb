@@ -5,7 +5,208 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-05-30T00:01:00Z</updated>
+  <updated>2018-05-31T18:51:20Z</updated>
+  <entry>
+    <title>Spring Batch 4.1.0.M1 Released</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/05/31/spring-batch-4-1-0-m1-released" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Mahmoud Ben Hassine</name>
+    </author>
+    <id>tag:spring.io,2018-05-29:3290</id>
+    <updated>2018-05-31T18:51:20Z</updated>
+    <content type="html">&lt;p&gt;We are pleased to announce that Spring Batch 4.1.0.M1 is now available on Github and the Pivotal download repository. Many thanks to all of those who contributed to this release!&lt;/p&gt;&lt;h1&gt;&lt;a href="#what-rsquo-s-new" class="anchor" name="what-rsquo-s-new"&gt;&lt;/a&gt;What&amp;rsquo;s new?&lt;/h1&gt;
+&lt;p&gt;Here are the highlights of this release:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simplify testing&lt;/li&gt;
+  &lt;li&gt;Simplify remote chunking&lt;/li&gt;
+  &lt;li&gt;Add a new JSON item reader&lt;/li&gt;
+&lt;/ul&gt;&lt;h2&gt;&lt;a href="#simplify-testing" class="anchor" name="simplify-testing"&gt;&lt;/a&gt;Simplify Testing&lt;/h2&gt;
+&lt;p&gt;Spring Batch provides some nice utility classes (such as the &lt;code&gt;JobLauncherTestUtils&lt;/code&gt; and &lt;code&gt;JobRepositoryTestUtils&lt;/code&gt;) and test execution listeners (&lt;code&gt;StepScopeTestExecutionListener&lt;/code&gt; and &lt;code&gt;JobScopeTestExecutionListener&lt;/code&gt;) to test batch components. However, in order to use these utilities, you must configure them explicitly, as shown in the following example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;@RunWith(SpringRunner.class)&#xD;
+@ContextConfiguration(classes = {JobConfiguration.class, JobTest.TestConfiguration.class})&#xD;
+@TestExecutionListeners(listeners = {StepScopeTestExecutionListener.class, JobScopeTestExecutionListener.class})&#xD;
+public class JobTest {&#xD;
+&#xD;
+   @Autowired&#xD;
+   private JobLauncherTestUtils jobLauncherTestUtils;&#xD;
+&#xD;
+   @Autowired&#xD;
+   private JobRepositoryTestUtils jobRepositoryTestUtils;&#xD;
+&#xD;
+&#xD;
+   @Before&#xD;
+   public void clearMetadata() {&#xD;
+      jobRepositoryTestUtils.removeJobExecutions();&#xD;
+   }&#xD;
+&#xD;
+   @Test&#xD;
+   public void testJob() throws Exception {&#xD;
+      // given&#xD;
+      JobParameters jobParameters = &#xD;
+            jobLauncherTestUtils.getUniqueJobParameters();&#xD;
+&#xD;
+      // when&#xD;
+      JobExecution jobExecution = &#xD;
+            jobLauncherTestUtils.launchJob(jobParameters);&#xD;
+&#xD;
+      // then&#xD;
+      Assert.assertEquals(ExitStatus.COMPLETED, &#xD;
+                          jobExecution.getExitStatus());&#xD;
+   }&#xD;
+&#xD;
+   @Configuration&#xD;
+   public static class TestConfiguration {&#xD;
+&#xD;
+      @Bean&#xD;
+      public JobLauncherTestUtils jobLauncherTestUtils() {&#xD;
+         return new JobLauncherTestUtils();&#xD;
+      }&#xD;
+&#xD;
+      @Bean&#xD;
+      public JobRepositoryTestUtils jobRepoTestUtils(DataSource dataSource,&#xD;
+                                               JobRepository jobRepository) {&#xD;
+&#xD;
+         return new JobRepositoryTestUtils(jobRepository, dataSource);&#xD;
+      }&#xD;
+&#xD;
+   }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In this release, we introduced a new annotation, named &lt;code&gt;@SpringBatchTest&lt;/code&gt;, that marks a class as a test class for Spring Batch components. This annotation automatically adds utility beans and listeners to the test context and makes them automatically available for autowiring, as the following example shows:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;@RunWith(SpringRunner.class)&#xD;
+@SpringBatchTest&#xD;
+@ContextConfiguration(classes = {JobConfiguration.class})&#xD;
+public class JobTest {&#xD;
+&#xD;
+   @Autowired&#xD;
+   private JobLauncherTestUtils jobLauncherTestUtils;&#xD;
+&#xD;
+   @Autowired&#xD;
+   private JobRepositoryTestUtils jobRepositoryTestUtils;&#xD;
+&#xD;
+&#xD;
+   @Before&#xD;
+   public void clearMetadata() {&#xD;
+      jobRepositoryTestUtils.removeJobExecutions();&#xD;
+   }&#xD;
+&#xD;
+   @Test&#xD;
+   public void testJob() throws Exception {&#xD;
+      // given&#xD;
+      JobParameters jobParameters = &#xD;
+            jobLauncherTestUtils.getUniqueJobParameters();&#xD;
+&#xD;
+      // when&#xD;
+      JobExecution jobExecution = &#xD;
+            jobLauncherTestUtils.launchJob(jobParameters);&#xD;
+&#xD;
+      // then&#xD;
+      Assert.assertEquals(ExitStatus.COMPLETED, &#xD;
+                          jobExecution.getExitStatus());&#xD;
+   }&#xD;
+   &#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;With this new annotation, you can declaratively import test utilities and focus on testing the business logic of the batch job.&lt;/p&gt;&lt;h2&gt;&lt;a href="#simplify-remote-chunking" class="anchor" name="simplify-remote-chunking"&gt;&lt;/a&gt;Simplify Remote Chunking&lt;/h2&gt;
+&lt;p&gt;Setting up a remote chunking job requires the definition of a number of beans:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A connection factory to acquire connections from the messaging middleware (JMS, AMQP, and others)&lt;/li&gt;
+  &lt;li&gt;A &lt;code&gt;MessagingTemplate&lt;/code&gt; to send requests from the master to the workers and back again&lt;/li&gt;
+  &lt;li&gt;An input channel and an output channel for Spring Integration to get messages from the messaging middleware&lt;/li&gt;
+  &lt;li&gt;A special item writer (&lt;code&gt;ChunkMessageChannelItemWriter&lt;/code&gt;) on the master side that knows how to send chunks of data to workers for processing and writing&lt;/li&gt;
+  &lt;li&gt;A message listener (&lt;code&gt;ChunkProcessorChunkHandler&lt;/code&gt;) on the worker side to receive data from the master&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This can be a bit daunting at first glance. In this milestone, we tried to make this task as easy as possible by introducing a new annotation named &lt;code&gt;@EnableBatchIntegration&lt;/code&gt; as well as new APIs (&lt;code&gt;RemoteChunkingMasterStepBuilder&lt;/code&gt; and &lt;code&gt;RemoteChunkingWorkerBuilder&lt;/code&gt;) to simplify the configuration. Here is an example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Configuration&#xD;
+@EnableBatchProcessing&#xD;
+@EnableBatchIntegration&#xD;
+public class RemoteChunkingAppConfig {&#xD;
+  &#xD;
+   @Autowired&#xD;
+   private RemoteChunkingMasterStepBuilderFactory masterStepBuilderFactory;&#xD;
+  &#xD;
+   @Autowired&#xD;
+   private RemoteChunkingWorkerBuilder workerBuilder;&#xD;
+  &#xD;
+   @Bean&#xD;
+   public TaskletStep masterStep() {&#xD;
+         return this.masterStepBuilderFactory&#xD;
+         	        .get(&amp;quot;masterStep&amp;quot;)&#xD;
+         	        .chunk(100)&#xD;
+         	        .reader(itemReader())&#xD;
+         	        .outputChannel(outgoingRequestsToWorkers())&#xD;
+         	        .inputChannel(incomingRepliesFromWorkers())&#xD;
+         	        .build();&#xD;
+   }&#xD;
+  &#xD;
+   @Bean&#xD;
+   public IntegrationFlow worker() {&#xD;
+         return this.workerBuilder&#xD;
+         	        .itemProcessor(itemProcessor())&#xD;
+         	        .itemWriter(itemWriter())&#xD;
+         	        .inputChannel(incomingRequestsFromMaster())&#xD;
+         	        .outputChannel(outgoingRepliesToMaster())&#xD;
+         	        .build();&#xD;
+   }&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This new annotation and builders takes care of the heavy lifting of configuring infrastructure beans. You can now easily configure a master step as well as a Spring Integration flow on the worker side.&lt;/p&gt;&lt;h2&gt;&lt;a href="#add-a-new-json-item-reader" class="anchor" name="add-a-new-json-item-reader"&gt;&lt;/a&gt;Add a New JSON Item Reader&lt;/h2&gt;
+&lt;p&gt;JSON is a popular data format nowadays, and many applications have a requirement to read and write JSON data in batch mode. In this first milestone, we have added a new item reader that supports JSON. Similar to the &lt;code&gt;StaxEventItemReader&lt;/code&gt; for XML, the &lt;code&gt;JsonItemReader&lt;/code&gt; uses streaming APIs in order to read JSON objects in chunks. Two JSON libraries are supported: &lt;a href="https://github.com/FasterXML/jackson"&gt;Jackson&lt;/a&gt; and &lt;a href="https://github.com/google/gson"&gt;Gson&lt;/a&gt;. The &lt;code&gt;JsonItemReader&lt;/code&gt; is able to read JSON files in the following format:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint json"&gt;[&#xD;
+  {&#xD;
+    &amp;quot;isin&amp;quot;: &amp;quot;123&amp;quot;,&#xD;
+    &amp;quot;quantity&amp;quot;: 1,&#xD;
+    &amp;quot;price&amp;quot;: 1.2,&#xD;
+    &amp;quot;customer&amp;quot;: &amp;quot;foo&amp;quot;&#xD;
+  },&#xD;
+  {&#xD;
+    &amp;quot;isin&amp;quot;: &amp;quot;456&amp;quot;,&#xD;
+    &amp;quot;quantity&amp;quot;: 2,&#xD;
+    &amp;quot;price&amp;quot;: 1.4,&#xD;
+    &amp;quot;customer&amp;quot;: &amp;quot;bar&amp;quot;&#xD;
+  }&#xD;
+]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Each object of this &lt;code&gt;trades.json&lt;/code&gt; file represents an instance of the following &lt;code&gt;Trade&lt;/code&gt; class:&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;public class Trade {&#xD;
+&#xD;
+   private String isin;&#xD;
+   private long quantity;&#xD;
+   private BigDecimal price;&#xD;
+   private String customer;&#xD;
+&#xD;
+   // getters and setters omitted&#xD;
+&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In order to read this &lt;code&gt;trades.json&lt;/code&gt; file, you can use the following item reader (using Jackson in this example):&lt;/p&gt;
+&lt;pre&gt;&lt;code class="prettyprint java"&gt;@Bean&#xD;
+public JsonItemReader&amp;lt;Trade&amp;gt; jsonItemReader() {&#xD;
+&#xD;
+   ObjectMapper objectMapper = new ObjectMapper();&#xD;
+   // configure the objectMapper as required&#xD;
+   JacksonJsonObjectReader&amp;lt;Trade&amp;gt; jsonObjectReader = &#xD;
+            new JacksonJsonObjectReader&amp;lt;&amp;gt;(Trade.class);&#xD;
+   jsonObjectReader.setMapper(objectMapper);&#xD;
+&#xD;
+   return new JsonItemReaderBuilder&amp;lt;Trade&amp;gt;()&#xD;
+                 .jsonObjectReader(jsonObjectReader)&#xD;
+                 .resource(new ClassPathResource(&amp;quot;trades.json&amp;quot;))&#xD;
+                 .name(&amp;quot;tradeJsonItemReader&amp;quot;)&#xD;
+                 .build();&#xD;
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#other-improvements" class="anchor" name="other-improvements"&gt;&lt;/a&gt;Other Improvements&lt;/h2&gt;
+&lt;p&gt;This release also includes many other improvements, bug fixes, and documentation updates. For a complete list of changes, please check the &lt;a href="https://jira.spring.io/secure/ReleaseNote.jspa?projectId=10090&amp;version=16851"&gt;change log&lt;/a&gt;. We look forward to hearing your feedback on this milestone! Please feel free to ping &lt;a href="https://twitter.com/michaelminella"&gt;@michaelminella&lt;/a&gt;, &lt;a href="https://twitter.com/_benas_"&gt;@benas&lt;/a&gt;, or &lt;a href="https://twitter.com/cppwfs"&gt;@cppwfs&lt;/a&gt; on twitter or ask your question on &lt;a href="https://stackoverflow.com/questions/tagged/spring-batch"&gt;StackOverflow&lt;/a&gt; or &lt;a href="https://gitter.im/spring-batch/Lobby"&gt;Gitter&lt;/a&gt;. If you find any issue, please open a ticket on &lt;a href="http://jira.springsource.org/browse/BATCH"&gt;Jira&lt;/a&gt;.&lt;/p&gt;&lt;h1&gt;&lt;a href="#what-s-next" class="anchor" name="what-s-next"&gt;&lt;/a&gt;What’s Next?&lt;/h1&gt;
+&lt;p&gt;In the next milestone, we plan to:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Simplify remote partitioning setup (similar to simplifying remote chunking setup in this milestone)&lt;/li&gt;
+  &lt;li&gt;Add a &lt;code&gt;JsonItemWriter&lt;/code&gt; to complement the &lt;code&gt;JsonItemReader&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Add JSR-305 annotations to public APIs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stay tuned!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://projects.spring.io/spring-batch/"&gt;Spring Batch Home&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-batch"&gt;Source on GitHub&lt;/a&gt; | &lt;a href="https://docs.spring.io/spring-batch/4.1.x/reference/html/index.html"&gt;Reference Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tips: JDBC</title>
     <link rel="alternate" href="https://spring.io/blog/2018/05/30/spring-tips-jdbc" />
@@ -934,45 +1135,5 @@ Issues&lt;/a&gt;, or via the comments section. You can also ping me
 &lt;p&gt;Spring Boot 1.5.13 includes &lt;a href="https://github.com/spring-projects/spring-boot/milestone/110?closed=1"&gt;over 20 fixes, improvements and dependency updates&lt;/a&gt;. Thanks to all that have contributed with issue reports and pull requests. Please note that a number of the upgraded dependencies contain fixes for various security vulnerabilities. Please see &lt;a href="https://spring.io/blog/2018/05/09/spring-project-vulnerability-reports-published"&gt;this blog post&lt;/a&gt; for further details.&lt;/p&gt;&lt;h3&gt;&lt;a href="#how-can-you-help" class="anchor" name="how-can-you-help"&gt;&lt;/a&gt;How can you help?&lt;/h3&gt;
 &lt;p&gt;If you&amp;rsquo;re interested in helping out, check out the &lt;a href="https://github.com/spring-projects/spring-boot/labels/status%3A%20ideal-for-contribution"&gt;&amp;ldquo;ideal for contribution&amp;rdquo; tag&lt;/a&gt; in the issue repository. If you have general questions, please ask on &lt;a href="http://stackoverflow.com"&gt;stackoverflow.com&lt;/a&gt; using the &lt;a href="http://stackoverflow.com/tags/spring-boot"&gt;&lt;code&gt;spring-boot&lt;/code&gt; tag&lt;/a&gt; or chat with the community on &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href="http://projects.spring.io/spring-boot/"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-projects/spring-boot/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/spring-boot/docs/1.5.13.RELEASE/reference/htmlsingle"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-boot"&gt;Stack Overflow&lt;/a&gt; | &lt;a href="https://gitter.im/spring-projects/spring-boot"&gt;Gitter&lt;/a&gt;&lt;/p&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Security OAuth 2.3.3, 2.2.2, 2.1.2, 2.0.15 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/05/08/spring-security-oauth-2-3-3-2-2-2-2-1-2-2-0-15-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Joe Grandja</name>
-    </author>
-    <id>tag:spring.io,2018-05-08:3270</id>
-    <updated>2018-05-08T22:51:00Z</updated>
-    <content type="html">&lt;div class="paragraph"&gt;
-&lt;p&gt;I&amp;#8217;m pleased to announce the releases of Spring Security OAuth 2.3.3, 2.2.2, 2.1.2 and 2.0.15. These maintenance releases primarily deliver bug fixes.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;For a complete list of changes, please refer to:&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="ulist"&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-security-oauth/milestone/37?closed=1"&gt;2.3.3 changelog&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-security-oauth/milestone/32?closed=1"&gt;2.2.2 changelog&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-security-oauth/milestone/29?closed=1"&gt;2.1.2 changelog&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/spring-projects/spring-security-oauth/milestone/25?closed=1"&gt;2.0.15 changelog&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;strong&gt;2018-05-09 Update:&lt;/strong&gt; The releases address a vulnerability. Please see &lt;a href="https://spring.io/blog/2018/05/09/spring-project-vulnerability-reports-published"&gt;this blog post&lt;/a&gt; published after the associated Spring Boot &lt;a href="https://spring.io/blog/2018/05/09/spring-boot-1-5-13"&gt;1.5.13&lt;/a&gt; release.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class="paragraph"&gt;
-&lt;p&gt;&lt;a href="http://projects.spring.io/spring-security-oauth/"&gt;Project Page&lt;/a&gt; |
-&lt;a href="https://github.com/spring-projects/spring-security-oauth/"&gt;GitHub&lt;/a&gt; |
-&lt;a href="http://projects.spring.io/spring-security-oauth/docs/Home.html"&gt;Documentation&lt;/a&gt; | &lt;a href="http://stackoverflow.com/questions/tagged/spring-security-oauth2"&gt;Help&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;</content>
   </entry>
 </feed>
