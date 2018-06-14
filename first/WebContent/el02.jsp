@@ -18,6 +18,8 @@
 	<br> k*5 : ${k*5 };
 	<br> k/5 : ${k/5 };
 	<br>
+k: ${k }; <br>
+m: ${m }<br>
 
 </body>
 </html>
