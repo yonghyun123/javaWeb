@@ -1,0 +1,5 @@
+package kr.or.connect.jdbcexam.dto;
+
+public class Role {
+
+}

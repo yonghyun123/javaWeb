@@ -1,0 +1,7 @@
+package kr.or.connect.jdbcexam.dto;
+
+public class Role {
+	private Integer roleId;
+	private String description;
+	
+}
