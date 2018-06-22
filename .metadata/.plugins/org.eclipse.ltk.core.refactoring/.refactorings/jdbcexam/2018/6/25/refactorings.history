@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 packages to &apos;webapiexam/src/main/java&apos;&#x0A;- Original project: &apos;jdbcexam&apos;&#x0A;- Destination element: &apos;webapiexam/src/main/java&apos;&#x0A;- Original elements:&#x0A;     jdbcexam/src/main/java/kr.or.connect.jdbcexam.dto&#x0A;     jdbcexam/src/main/java/kr.or.connect.jdbcexam.dao" description="Copy packages" destination="=webapiexam/src\/main\/java" element1="/src\/main\/java&lt;kr.or.connect.jdbcexam.dto" element2="/src\/main\/java&lt;kr.or.connect.jdbcexam.dao" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1529651991999" version="1.0"/>
+</session>

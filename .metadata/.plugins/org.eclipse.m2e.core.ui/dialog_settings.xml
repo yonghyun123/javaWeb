@@ -56,12 +56,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="kr.or.connect.webapiexam"/>
+			<item value="kr.or.connect.jdbcexam"/>
 			<item value="kr.or.connect.mavenweb"/>
 		</list>
 		<list key="groupId">
 			<item value="kr.or.connect"/>
 		</list>
 		<list key="artifactId">
+			<item value="webapiexam"/>
+			<item value="jdbcexam"/>
 			<item value="mavenweb"/>
 		</list>
 		<list key="projectNameTemplate">
