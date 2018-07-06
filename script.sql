@@ -126,6 +126,15 @@ values (1,1),(2,2),(3,3),(4,4),(5,5);
 insert into test1(grade1, grade2)
 values (1,1),(2,2),(3,3),(4,4),(5,null);
 
+create table test2(
+	dept varchar(20)
+);
+
+insert into test2(dept) values
+('cs'),('cs'),('math'),('math'),('elec'),('elec');
+
+select distinct dept from test2;
+
 select *
 from test1
 where grade2 is null;
@@ -135,3 +144,54 @@ delete from test1;
 
 select * from members;
 select * from tele;
+
+drop table emp;
+
+
+create table emp(
+	emp_id int primary key not null,
+    emp_name varchar(40) not null,
+    emp_salary int not null,
+    branch_id int not null
+);
+
+create table selling(
+	s_car_id int not null,
+    s_emp_id int not null,
+    s_date datetime null,
+    s_price int not null
+    
+);
+
+insert into emp(emp_id, emp_name, emp_salary, branch_id)
+values(4603,"alayna",180,15);
+insert into emp(emp_id, emp_name, emp_salary, branch_id)
+values(4651,"kassidi",300,15);
+insert into emp(emp_id, emp_name, emp_salary, branch_id)
+values(864,"holly",330,16);
+insert into emp(emp_id, emp_name, emp_salary, branch_id)
+values(2842,"kyra",280,17);
+insert into emp(emp_id, emp_name, emp_salary, branch_id)
+values(4521,"Margaret",400,17);
+
+
+insert into selling
+values(306,4603,20160905223752,5200);
+insert into selling
+values(309,2455,20160905223752,5000);
+insert into selling
+values(305,864,20160905223752,5100);
+insert into selling
+values(307,4521,20160905223752,5000);
+insert into selling
+values(310,4651,20160905223752,5500);
+insert into selling
+values(388,4603,20160905223752,5700);
+
+select * from selling;
+select * from emp;
+
+select branch_id, count(branch_id) as 계약건수
+from emp e, selling s
+where e.emp_id = s.s_emp_id
+group by e.branch_id;

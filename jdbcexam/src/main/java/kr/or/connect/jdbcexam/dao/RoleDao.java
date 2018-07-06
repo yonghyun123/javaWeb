@@ -12,7 +12,7 @@ import com.mysql.jdbc.PreparedStatement;
 import kr.or.connect.jdbcexam.dto.Role;
 
 public class RoleDao {
-	private static String dbUrl = "jdbc:mysql://localhost:3306/connectdb";
+	private static String dbUrl = "jdbc:mysql://localhost:3306/connectdb?autoReconnect=true&useSSL=false";
 	private static String dbUser = "connectuser";
 	private static String dbpasswd = "connect123!@#";
 	

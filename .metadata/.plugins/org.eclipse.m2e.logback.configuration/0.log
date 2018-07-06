@@ -1098,3 +1098,649 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2018-06-22 16:55:12,474 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-06-22 16:55:12,476 [Worker-156] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-06-22 16:55:12,476 [Worker-156] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-06-23 20:20:20,387 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-23 20:20:20,412 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-23 20:20:20,418 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-23 20:20:20,419 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-06-23 20:20:21,989 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-23 20:20:22,003 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-23 20:20:22,006 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-23 20:20:22,007 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-06-24 19:22:20,352 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-24 19:22:20,370 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-24 19:22:20,379 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-24 19:22:20,380 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-06-24 19:22:21,664 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-24 19:22:21,670 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-24 19:22:21,673 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-24 19:22:21,674 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-06-27 17:52:11,980 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-27 17:52:11,986 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/main/resources
+2018-06-27 17:52:11,988 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-27 17:52:11,989 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/test/resources
+2018-06-27 17:52:12,556 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-27 17:52:12,565 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-27 17:52:12,569 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-27 17:52:12,569 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-06-27 17:52:15,022 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-27 17:52:15,029 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-27 17:52:15,033 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-06-27 17:52:15,033 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-06-29 14:58:31,770 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-29 14:58:31,771 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/main/resources
+2018-06-29 14:58:31,775 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-29 14:58:31,775 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/test/resources
+2018-07-03 17:18:48,229 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 17:18:48,237 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/main/resources
+2018-07-03 17:18:48,252 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 17:18:48,252 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/test/resources
+2018-07-03 17:18:48,865 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-03 17:18:48,882 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-03 17:18:48,886 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-03 17:18:48,887 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-07-03 17:18:50,415 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-03 17:18:50,417 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-03 17:18:50,419 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-03 17:18:50,419 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:05:25,952 [Worker-675] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:05:25,975 [Worker-675] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:05:25,979 [Worker-675] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:05:25,980 [Worker-675] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-07-06 14:06:47,021 [Worker-672] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:06:47,083 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:06:47,086 [Worker-672] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:06:47,087 [Worker-672] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-07-06 14:16:00,339 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:16:00,340 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:16:00,343 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:16:00,344 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-07-06 14:16:07,471 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:16:07,473 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:16:07,474 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:16:07,475 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-07-06 14:16:20,722 [Worker-685] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:16:20,723 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:16:20,734 [Worker-685] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:16:20,735 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-07-06 14:17:00,296 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:00,298 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:17:00,299 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:00,300 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:17:20,999 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:21,000 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:17:21,002 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:21,002 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:17:35,359 [Worker-681] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:35,361 [Worker-681] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:17:35,363 [Worker-681] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:35,364 [Worker-681] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:17:37,507 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:37,508 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:17:37,510 [Worker-686] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:17:37,510 [Worker-686] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:19:17,874 [Worker-681] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:19:17,884 [Worker-681] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:19:17,885 [Worker-681] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:19:17,886 [Worker-681] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:20:02,331 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:20:02,333 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:20:02,334 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:20:02,335 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:22:04,048 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:22:04,051 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:22:04,053 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:22:04,054 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:22:46,828 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:22:46,834 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:22:46,843 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:22:46,845 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:23:14,498 [Worker-685] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:23:14,499 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:23:14,506 [Worker-685] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:23:14,507 [Worker-685] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:23:36,810 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:23:36,812 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:23:36,814 [Worker-684] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:23:36,815 [Worker-684] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:25:12,651 [Worker-689] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:25:12,653 [Worker-689] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:25:12,655 [Worker-689] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:25:12,656 [Worker-689] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:27:00,334 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:27:00,336 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:27:00,338 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:27:00,338 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:27:38,211 [Worker-692] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:27:38,212 [Worker-692] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:27:38,214 [Worker-692] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:27:38,215 [Worker-692] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:27:57,300 [Worker-689] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:27:57,303 [Worker-689] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:27:57,308 [Worker-689] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:27:57,309 [Worker-689] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:34:49,078 [Worker-695] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:34:49,081 [Worker-695] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:34:49,085 [Worker-695] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:34:49,088 [Worker-695] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:35:00,251 [Worker-695] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:35:00,252 [Worker-695] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:35:00,258 [Worker-695] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:35:00,259 [Worker-695] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:35:51,448 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:35:51,453 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:35:51,455 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:35:51,457 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:36:34,100 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:36:34,104 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:36:34,106 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:36:34,111 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:36:37,522 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:36:37,523 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:36:37,525 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:36:37,529 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:36:44,135 [Worker-698] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:36:44,136 [Worker-698] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:36:44,137 [Worker-698] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:36:44,138 [Worker-698] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:38:30,611 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:30,618 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:38:30,620 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:30,621 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:38:43,956 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:43,958 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:38:43,960 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:43,960 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:38:51,222 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:51,223 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:38:51,224 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:51,225 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:38:54,902 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:54,902 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:38:54,904 [Worker-683] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:38:54,905 [Worker-683] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:39:19,888 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:39:19,890 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:39:19,891 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:39:19,892 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:39:59,113 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:39:59,114 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:39:59,115 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:39:59,116 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:40:35,509 [Worker-698] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:40:35,510 [Worker-698] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:40:35,511 [Worker-698] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:40:35,512 [Worker-698] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:40:58,808 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:40:58,809 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:40:58,811 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:40:58,811 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:42:56,091 [Worker-697] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:42:56,093 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:42:56,095 [Worker-697] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:42:56,096 [Worker-697] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:43:22,445 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:43:22,447 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:43:22,448 [Worker-701] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:43:22,449 [Worker-701] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:43:34,510 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:43:34,511 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:43:34,513 [Worker-702] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:43:34,516 [Worker-702] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 14:43:49,101 [Worker-700] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:43:49,103 [Worker-700] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 14:43:49,104 [Worker-700] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 14:43:49,105 [Worker-700] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:04:42,719 [Worker-712] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:04:42,723 [Worker-712] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:04:42,725 [Worker-712] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:04:42,729 [Worker-712] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:05:40,571 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:05:40,572 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:05:40,573 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:05:40,574 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:06:15,641 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:15,642 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:06:15,644 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:15,645 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:06:24,115 [Worker-708] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:24,115 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:06:24,117 [Worker-708] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:24,118 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:06:31,063 [Worker-712] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:31,064 [Worker-712] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:06:31,066 [Worker-712] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:31,066 [Worker-712] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:06:36,695 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:36,696 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:06:36,698 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:36,698 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:06:39,980 [Worker-707] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:39,981 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:06:39,983 [Worker-707] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:39,983 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:06:54,853 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:54,855 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:06:54,858 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:06:54,859 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:07:13,573 [Worker-707] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:07:13,574 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:07:13,575 [Worker-707] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:07:13,576 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:08:16,925 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:08:16,927 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:08:16,928 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:08:16,929 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:08:37,093 [Worker-708] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:08:37,094 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:08:37,095 [Worker-708] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:08:37,096 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:08:39,111 [Worker-708] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:08:39,111 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:08:39,114 [Worker-708] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:08:39,115 [Worker-708] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:09:10,440 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:09:10,442 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:09:10,443 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:09:10,444 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:10:23,392 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:10:23,393 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:10:23,395 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:10:23,395 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:10:50,413 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:10:50,416 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:10:50,417 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:10:50,420 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:10:52,440 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:10:52,442 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:10:52,443 [Worker-715] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:10:52,444 [Worker-715] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:11:05,248 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:05,250 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:11:05,252 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:05,253 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:11:27,071 [Worker-707] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:27,073 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:11:27,076 [Worker-707] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:27,077 [Worker-707] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:11:29,253 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:29,254 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:11:29,256 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:29,256 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:11:32,722 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:32,722 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:11:32,723 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:11:32,724 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:12:06,585 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:06,587 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:12:06,590 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:06,591 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:12:13,136 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:13,137 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:12:13,138 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:13,139 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:12:35,931 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:35,932 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:12:35,933 [Worker-710] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:35,934 [Worker-710] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:12:54,035 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:54,036 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:12:54,038 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:54,038 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:12:56,079 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:56,080 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:12:56,083 [Worker-711] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:12:56,084 [Worker-711] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:13:11,967 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:13:11,968 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:13:11,970 [Worker-699] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:13:11,976 [Worker-699] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:33:48,704 [Worker-716] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:33:48,705 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:33:48,707 [Worker-716] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:33:48,707 [Worker-716] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:37:34,965 [Worker-721] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:37:34,966 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:37:34,967 [Worker-721] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:37:34,967 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:37:43,561 [Worker-718] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:37:43,562 [Worker-718] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:37:43,563 [Worker-718] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:37:43,564 [Worker-718] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:37:58,720 [Worker-722] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:37:58,721 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:37:58,723 [Worker-722] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:37:58,723 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:38:19,308 [Worker-719] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:38:19,310 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:38:19,311 [Worker-719] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:38:19,312 [Worker-719] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:38:27,695 [Worker-721] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:38:27,696 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:38:27,701 [Worker-721] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:38:27,702 [Worker-721] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:38:31,098 [Worker-722] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:38:31,099 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:38:31,101 [Worker-722] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:38:31,101 [Worker-722] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:53:00,679 [Worker-727] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:53:00,682 [Worker-727] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:53:00,683 [Worker-727] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:53:00,683 [Worker-727] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 15:58:38,605 [Worker-731] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:58:38,610 [Worker-731] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 15:58:38,611 [Worker-731] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 15:58:38,612 [Worker-731] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:08:13,104 [Worker-732] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:08:13,109 [Worker-732] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:08:13,111 [Worker-732] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:08:13,111 [Worker-732] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:08:16,257 [Worker-738] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:08:16,258 [Worker-738] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:08:16,259 [Worker-738] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:08:16,259 [Worker-738] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:08:26,943 [Worker-730] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:08:26,944 [Worker-730] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:08:26,946 [Worker-730] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:08:26,946 [Worker-730] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:14:13,831 [Worker-739] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.connect:webapiexam:0.0.1-SNAPSHOT @ /Users/yonghyun/Desktop/JavaWeb/webapiexam/pom.xml.
+2018-07-06 16:14:17,134 [Worker-739] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20180130/json-20180130.pom
+2018-07-06 16:14:17,294 [Worker-739] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20180130/json-20180130.pom
+2018-07-06 16:14:17,490 [Worker-739] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20180130/json-20180130.jar
+2018-07-06 16:14:17,900 [Worker-739] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20180130/json-20180130.jar
+2018-07-06 16:14:18,250 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:18,252 [Worker-739] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:14:18,254 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:18,254 [Worker-739] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:14:18,255 [Worker-739] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of webapiexam
+2018-07-06 16:14:18,259 [Worker-739] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for webapiexam
+2018-07-06 16:14:18,268 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:20,080 [Worker-739] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.connect:webapiexam:0.0.1-SNAPSHOT @ /Users/yonghyun/Desktop/JavaWeb/webapiexam/pom.xml.
+2018-07-06 16:14:20,221 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:20,222 [Worker-739] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:14:20,232 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:20,234 [Worker-739] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:14:20,235 [Worker-739] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of webapiexam
+2018-07-06 16:14:20,235 [Worker-739] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for webapiexam
+2018-07-06 16:14:20,240 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:21,386 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:21,387 [Worker-739] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:14:21,389 [Worker-739] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:14:21,390 [Worker-739] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:15:33,595 [Worker-742] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:15:33,596 [Worker-742] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:15:33,598 [Worker-742] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:15:33,599 [Worker-742] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:16:58,648 [Worker-742] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:16:58,649 [Worker-742] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:16:58,650 [Worker-742] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:16:58,651 [Worker-742] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:19:01,902 [Worker-743] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:19:01,903 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:19:01,906 [Worker-743] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:19:01,906 [Worker-743] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:25:59,141 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:25:59,143 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:25:59,145 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:25:59,145 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:26:47,145 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:26:47,147 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:26:47,149 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:26:47,149 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:27:07,683 [Worker-750] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:27:07,684 [Worker-750] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:27:07,685 [Worker-750] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:27:07,686 [Worker-750] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:33:18,167 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:33:18,177 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:33:18,178 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:33:18,179 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:33:57,125 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:33:57,126 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:33:57,127 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:33:57,127 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:36:51,691 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:36:51,692 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:36:51,693 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:36:51,694 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:36:56,181 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:36:56,182 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:36:56,183 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:36:56,184 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:37:02,858 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:37:02,858 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:37:02,860 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:37:02,860 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:38:12,239 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:12,240 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:38:12,241 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:12,242 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:38:43,356 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:43,357 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:38:43,358 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:43,359 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:38:49,758 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:49,759 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:38:49,760 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:49,760 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:38:55,608 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:55,608 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:38:55,610 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:55,610 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:38:56,764 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:56,765 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:38:56,767 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:38:56,767 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:39:23,329 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:39:23,331 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:39:23,332 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:39:23,332 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:40:15,533 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:40:15,535 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:40:15,537 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:40:15,537 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:41:09,139 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:09,140 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:41:09,141 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:09,142 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:41:11,160 [Worker-755] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:11,161 [Worker-755] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:41:11,163 [Worker-755] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:11,166 [Worker-755] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:41:38,094 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:38,095 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:41:38,096 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:38,097 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:41:44,809 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:44,810 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:41:44,812 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:44,813 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:41:57,376 [Worker-755] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:57,377 [Worker-755] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:41:57,378 [Worker-755] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:41:57,379 [Worker-755] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:42:19,192 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:42:19,193 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:42:19,194 [Worker-753] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:42:19,195 [Worker-753] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:43:00,860 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:43:00,861 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:43:00,863 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:43:00,863 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:43:31,999 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:43:31,999 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:43:32,000 [Worker-752] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:43:32,001 [Worker-752] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:43:37,339 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:43:37,339 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:43:37,340 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:43:37,341 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:45:42,701 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:45:42,702 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:45:42,703 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:45:42,704 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:46:23,503 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:46:23,504 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:46:23,505 [Worker-754] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:46:23,506 [Worker-754] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:46:42,292 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:46:42,293 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:46:42,298 [Worker-749] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:46:42,299 [Worker-749] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 16:52:17,886 [Worker-755] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:52:17,890 [Worker-755] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 16:52:17,892 [Worker-755] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 16:52:17,892 [Worker-755] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:00:47,694 [Worker-764] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:00:47,696 [Worker-764] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:00:47,697 [Worker-764] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:00:47,699 [Worker-764] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:00:49,854 [Worker-758] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:00:49,855 [Worker-758] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:00:49,856 [Worker-758] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:00:49,856 [Worker-758] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:01:59,602 [Worker-764] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:01:59,603 [Worker-764] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:01:59,604 [Worker-764] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:01:59,604 [Worker-764] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:02:09,481 [Worker-763] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:09,482 [Worker-763] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:02:09,483 [Worker-763] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:09,484 [Worker-763] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:02:31,078 [Worker-762] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:31,078 [Worker-762] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:02:31,079 [Worker-762] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:31,080 [Worker-762] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:02:36,623 [Worker-762] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:36,624 [Worker-762] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:02:36,625 [Worker-762] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:36,625 [Worker-762] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:02:56,588 [Worker-764] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:56,589 [Worker-764] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:02:56,590 [Worker-764] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:02:56,590 [Worker-764] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:14:32,472 [Worker-768] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:14:32,477 [Worker-768] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:14:32,478 [Worker-768] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:14:32,479 [Worker-768] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:15:38,994 [Worker-768] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:15:38,996 [Worker-768] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:15:38,997 [Worker-768] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:15:38,998 [Worker-768] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:16:02,968 [Worker-771] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:16:02,969 [Worker-771] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:16:02,971 [Worker-771] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:16:02,971 [Worker-771] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:20:01,177 [Worker-778] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:20:01,179 [Worker-778] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:20:01,180 [Worker-778] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:20:01,181 [Worker-778] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:20:03,219 [Worker-779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:20:03,221 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:20:03,222 [Worker-779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:20:03,223 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:21:36,471 [Worker-779] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.connect:webapiexam:0.0.1-SNAPSHOT @ /Users/yonghyun/Desktop/JavaWeb/webapiexam/pom.xml.
+2018-07-06 17:21:38,182 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2018-07-06 17:21:38,361 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom
+2018-07-06 17:21:38,514 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom
+2018-07-06 17:21:38,747 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/4.10/junit-4.10.pom
+2018-07-06 17:21:38,934 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2018-07-06 17:21:39,114 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom
+2018-07-06 17:21:39,281 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2018-07-06 17:21:39,498 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hamcrest/hamcrest-parent/1.1/hamcrest-parent-1.1.pom
+2018-07-06 17:21:39,775 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2018-07-06 17:21:40,143 [Worker-779] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar
+2018-07-06 17:21:40,304 [Worker-779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:21:40,307 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:21:40,309 [Worker-779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:21:40,309 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:21:40,310 [Worker-779] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of webapiexam
+2018-07-06 17:21:40,310 [Worker-779] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for webapiexam
+2018-07-06 17:21:40,314 [Worker-779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:21:42,147 [Worker-782] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: kr.or.connect:webapiexam:0.0.1-SNAPSHOT @ /Users/yonghyun/Desktop/JavaWeb/webapiexam/pom.xml.
+2018-07-06 17:21:42,297 [Worker-782] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:21:42,298 [Worker-782] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:21:42,299 [Worker-782] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:21:42,300 [Worker-782] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:21:42,300 [Worker-782] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of webapiexam
+2018-07-06 17:21:42,300 [Worker-782] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for webapiexam
+2018-07-06 17:21:42,303 [Worker-782] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:22:23,507 [Worker-781] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for mavenweb
+2018-07-06 17:22:23,586 [Worker-781] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for webapiexam
+2018-07-06 17:22:24,182 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-06 17:22:24,182 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/main/resources
+2018-07-06 17:22:24,183 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-06 17:22:24,183 [Worker-772] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/jdbcexam/src/test/resources
+2018-07-06 17:22:24,348 [Worker-784] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:22:24,391 [Worker-784] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:22:24,393 [Worker-784] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:22:24,393 [Worker-784] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/mavenweb/src/test/resources
+2018-07-06 17:22:24,394 [Worker-784] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of mavenweb
+2018-07-06 17:22:24,394 [Worker-784] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for mavenweb
+2018-07-06 17:22:24,398 [Worker-784] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:22:24,778 [Worker-781] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:22:24,779 [Worker-781] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:22:24,780 [Worker-781] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:22:24,780 [Worker-781] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:22:24,781 [Worker-781] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of webapiexam
+2018-07-06 17:22:24,781 [Worker-781] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for webapiexam
+2018-07-06 17:22:24,784 [Worker-781] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:24:33,965 [Worker-778] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:24:33,966 [Worker-778] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:24:33,967 [Worker-778] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:24:33,968 [Worker-778] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:25:14,412 [Worker-783] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:25:14,415 [Worker-783] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:25:14,418 [Worker-783] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:25:14,419 [Worker-783] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:25:22,828 [Worker-783] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:25:22,830 [Worker-783] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:25:22,830 [Worker-783] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:25:22,831 [Worker-783] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:26:21,303 [Worker-776] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:26:21,305 [Worker-776] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:26:21,306 [Worker-776] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:26:21,306 [Worker-776] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:27:03,720 [Worker-779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:27:03,721 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:27:03,722 [Worker-779] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:27:03,722 [Worker-779] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:27:18,154 [Worker-784] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:27:18,155 [Worker-784] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:27:18,156 [Worker-784] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:27:18,157 [Worker-784] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:35:59,441 [Worker-776] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:35:59,444 [Worker-776] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:35:59,449 [Worker-776] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:35:59,454 [Worker-776] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:43:19,220 [Worker-789] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:43:19,223 [Worker-789] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:43:19,226 [Worker-789] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:43:19,227 [Worker-789] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:44:21,934 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:44:21,935 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:44:21,940 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:44:21,941 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:44:33,196 [Worker-791] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:44:33,197 [Worker-791] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:44:33,197 [Worker-791] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:44:33,198 [Worker-791] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:45:22,133 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:45:22,134 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:45:22,135 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:45:22,136 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:45:43,692 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:45:43,693 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:45:43,694 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:45:43,695 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:45:54,338 [Worker-794] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:45:54,345 [Worker-794] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:45:54,346 [Worker-794] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:45:54,346 [Worker-794] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:46:41,744 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:46:41,744 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:46:41,745 [Worker-786] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:46:41,746 [Worker-786] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
+2018-07-06 17:47:00,761 [Worker-789] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:47:00,762 [Worker-789] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-06 17:47:00,763 [Worker-789] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-07-06 17:47:00,763 [Worker-789] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/yonghyun/Desktop/JavaWeb/webapiexam/src/test/resources
