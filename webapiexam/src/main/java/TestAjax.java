@@ -47,16 +47,20 @@ public class TestAjax extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		  String val = request.getParameter("Form Data[id]");
+//		  String id = request.getParameter("id");
+//		  String type = request.getParameter("type");
 		  String json = request.getParameter("json");
+//		  System.out.println(id);
+//		  System.out.println(type);
+		  System.out.println(json);
 
 		  try {
 			JSONParser parser = new JSONParser();
 			JSONObject jsonObj = (JSONObject) parser.parse(json);
-			String id = (String) jsonObj.get("id").toString();
-			String type = (String) jsonObj.get("type").toString();
+			String id2 = (String) jsonObj.get("id").toString();
+			String type2 = (String) jsonObj.get("type").toString();
 			
-			System.out.println("id:"+id+", type:"+type);
+			System.out.println("id:"+id2+", type:"+type2);
 		} catch (ParseException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

@@ -38,7 +38,7 @@ $(function() {
     			'id': 123,
     			'type': 'finish',
     	};
- 
+ <%--
     	xhr.open("POST","/webapiexam/TestAjax",true);
     	var json = JSON.stringify(data)
     	
@@ -52,22 +52,22 @@ $(function() {
     	console.log(json);
     	console.log(data);
     	xhr.send('json='+json);
-    
-<%--
+    --%>
+
       $.ajax({
         type:"POST",
         url:"/webapiexam/TestAjax",
         /* contentType: "application/x-www-form-urlencoded; charset=utf-8", */ 
-        data: data,
+        data: 'json=' + data,
         datatype:"json",
         success: function(data) {
-          console.log(data);			
+          console.log('dat'+data);			
         },
         error: function(e) {
           
         }			
       });
-      --%>
+      
       
     });
   });
