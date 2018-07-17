@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="userBean" class="kr.or.connect.diexam01.UserBean"></bean>
+	<bean id="e" class="kr.or.connect.diexam01.Engine"></bean>
+	<bean id="car" class="kr.or.connect.diexam01.Car">
+		<property name="engine" ref="e"></property> 
+	</bean>
+	
+</beans>
+<!--아주 중요-->
+<!-- kr.or.connect.diexam01.UserBean userBean = new kr.or.connect.diexam01.UserBean() 이것과 같은 의미 -->
+<!-- 스프링은 객체생성이 위와같이 되기 때문에 객체를 하나만 갖기 때문에 singleton pattern -->
+<!-- name property를 이용해서 name이 engine을 찾는단 의미는 getEngine과 setEngine을 ref="e"에서 찾게됨 -->

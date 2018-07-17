@@ -195,3 +195,13 @@ select branch_id, count(branch_id) as 계약건수
 from emp e, selling s
 where e.emp_id = s.s_emp_id
 group by e.branch_id;
+
+
+use connectdb;
+show tables;
+drop table bonus cascade CONSTRAINTS;
+drop table department cascade;
+drop table employee cascade;
+drop table project cascade;
+drop table role;
+drop table salarygrade;
