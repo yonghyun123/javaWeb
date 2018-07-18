@@ -4,11 +4,14 @@ import javax.sql.DataSource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
 @Configuration
 @Import({DBConfig.class})
+@ComponentScan(basePackages = {"kr.or.connect.daoexam.dao"})
+
 public class ApplicationConfig {
 	
 	private String driverClassName = "com.mysql.jdbc.Driver";
