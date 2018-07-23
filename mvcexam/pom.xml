@@ -12,6 +12,7 @@
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   	<spring.version> 4.3.5.RELEASE</spring.version>
   </properties>
+  
   <dependencies>
   
     <dependency>
@@ -21,7 +22,6 @@
       <scope>test</scope>
     </dependency>
 
-    
     <dependency>
     	<groupId>org.springframework</groupId>
     	<artifactId>spring-context</artifactId>

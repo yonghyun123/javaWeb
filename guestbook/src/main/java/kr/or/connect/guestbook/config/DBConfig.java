@@ -1,5 +1,4 @@
-package kr.connect.guestbook.config;
-
+package kr.or.connect.guestbook.config;
 import javax.sql.DataSource;
 
 import org.apache.commons.dbcp2.BasicDataSource;
