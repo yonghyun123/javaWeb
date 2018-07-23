@@ -199,9 +199,30 @@ group by e.branch_id;
 
 use connectdb;
 show tables;
-drop table bonus cascade CONSTRAINTS;
-drop table department cascade;
-drop table employee cascade;
-drop table project cascade;
+
+drop table department restrict;
+drop table employee;
+drop table project;
 drop table role;
 drop table salarygrade;
+drop table PROJECT_PARTICIPATION;
+
+set foreign_key_checks = 1;
+
+select * from role;
+
+create table guestbook(
+	id bigint(20) unsigned not null auto_increment,
+    name varchar(200) not null,
+    content text,
+    regdate datetime,
+    primary key(id)
+);
+
+create table log(
+	id bigint(20) unsigned not null auto_increment,
+    ip varchar(200) not null,
+    method varchar(200) not null,
+    regdate datetime,
+    primary key(id)
+)
