@@ -21,7 +21,7 @@ public class GuestbookController {
 	@Autowired
 	GuestbookService guestbookService;
 	
-	@GetMapping(path="/list")
+	@GetMapping(path="/list22")
 	public String list(@RequestParam(name="start", required=false, defaultValue="0") int start,
 					   ModelMap model) {
 		

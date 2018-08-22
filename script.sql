@@ -225,4 +225,7 @@ create table log(
     method varchar(200) not null,
     regdate datetime,
     primary key(id)
-)
+);
+
+select * from guestbook; 
+select * from log;
