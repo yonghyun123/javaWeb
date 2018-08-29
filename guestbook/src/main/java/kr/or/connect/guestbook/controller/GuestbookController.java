@@ -3,7 +3,9 @@ package kr.or.connect.guestbook.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,9 +23,37 @@ public class GuestbookController {
 	@Autowired
 	GuestbookService guestbookService;
 	
-	@GetMapping(path="/list22")
+	@GetMapping(path="/list")
 	public String list(@RequestParam(name="start", required=false, defaultValue="0") int start,
-					   ModelMap model) {
+					   ModelMap model, HttpServletRequest request, HttpServletResponse response) {
+		String value = null;
+		boolean find = false;
+		Cookie[] cookies = request.getCookies();
+		
+		if(cookies != null){
+			for(Cookie cookie : cookies){
+				if(cookie.getName().equals("count")){
+					find = true;
+					value = cookie.getValue();
+					break;
+				}
+			}
+		}
+		
+		if(!find){
+			value = "1";
+		} else {
+			try {
+				int tempValue = Integer.parseInt(value);
+				value = Integer.toString(++tempValue);
+			} catch (Exception e) {
+				value = "1";
+			}
+		}
+		Cookie cookie = new Cookie("count", value);
+		cookie.setMaxAge(60 * 60 * 24 * 365); //365일 유지
+		cookie.setPath("/"); //root경로 이하 모두 적용
+		response.addCookie(cookie);
 		
 		// start로 시작하는 방명록 목록 구하기
 		List<Guestbook> list = guestbookService.getGuestbooks(start);
@@ -46,6 +76,7 @@ public class GuestbookController {
 		model.addAttribute("list", list);
 		model.addAttribute("count", count);
 		model.addAttribute("pageStartList", pageStartList);
+		model.addAttribute("cookieCount", value);
 		
 		return "list";
 	}

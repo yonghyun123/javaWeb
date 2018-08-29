@@ -1,7 +1,5 @@
 package kr.or.connect.rollat;
 
-import static org.junit.Assert.*;
-
 import java.util.List;
 
 import org.junit.Test;
@@ -23,7 +21,6 @@ public class RoleDaoTest {
 	@Test
 	public void selectAll() throws Exception{
 		List<Role> roles = roleDao.selectAll();
-		
 		if(roles != null){
 			System.out.println("dao sucessssssssssssss");
 		}
