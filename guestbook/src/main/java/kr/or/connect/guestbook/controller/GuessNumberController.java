@@ -35,7 +35,7 @@ public class GuessNumberController {
 				session.removeAttribute("randomNumber");
 			}
 		}
-		model.addAttribute("message",message);
+		model.addAttribute("message",message); 
 		return "guess" ;
 	}
 }
